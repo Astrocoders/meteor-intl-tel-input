@@ -2,7 +2,7 @@ Package.describe({
   name: 'astrocoders:intl-tel-input',
   version: '0.0.1',
   summary: 'Internation input masker',
-  git: '',
+  git: 'https://github.com/Astrocoders/meteor-intl-tel-input',
   documentation: 'README.md'
 });
 

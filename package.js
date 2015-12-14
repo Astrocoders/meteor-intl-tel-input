@@ -9,12 +9,16 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
 
+  api.use('fourseven:scss@3.4.1');
+
   api.addFiles([
+    'lib/js/utils.js',
     'lib/js/intlTelInput.js',
   ], 'client');
 
   api.addFiles([
-    'lib/css/intlTelInput.css',
+    'lib/css/sprite.scss',
+    'lib/css/intlTelInput.scss',
   ], 'client');
 
   api.addAssets([
